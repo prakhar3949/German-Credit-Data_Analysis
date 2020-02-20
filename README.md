@@ -32,27 +32,26 @@ been coded as integer.    This was the form used by StatLog.
 ## Attribute description for german
 
 ### Attribute 1:  (qualitative)
-	       * Status of existing checking account *
-         *   A11 :      ... <    0 DM
+	       *Status of existing checking account*
+         * A11 :      ... <    0 DM
 	       * A12 : 0 <= ... <  200 DM
 	       * A13 :      ... >= 200 DM / salary assignments for at least 1 year
-         *   A14 : no checking account
+         * A14 : no checking account
 
 ### Attribute 2:  (numerical)
-	      * Duration in month *
+	      *Duration in month*
 
 ### Attribute 3:  (qualitative)
 	      *Credit history*
-	      * A30 : no credits taken/
-		    all credits paid back duly
-              *A31 : all credits at this bank paid back duly
+	      * A30 : no credits taken/all credits paid back duly
+              * A31 : all credits at this bank paid back duly
 	      * A32 : existing credits paid back duly till now
-              *A33 : delay in paying off in the past
+              * A33 : delay in paying off in the past
 	      * A34 : critical account/
 		    other credits existing (not at this bank)
 
 ### Attribute 4:  (qualitative)
-        Purpose
+        *Purpose*
 	      A40 : car (new)
 	      A41 : car (used)
 	      A42 : furniture/equipment
@@ -66,7 +65,7 @@ been coded as integer.    This was the form used by StatLog.
 	      A410 : others
 
 ### Attribute 5:  (numerical)
-	      Credit amount
+	      *Credit amount*
 
 ### Attibute 6:  (qualitative)
 	      Savings account/bonds
@@ -158,11 +157,10 @@ been coded as integer.    This was the form used by StatLog.
 This dataset requires use of a cost matrix (see below)
 
 
-      1        2
-----------------------------
-  1   0        1
------------------------
-  2   5        0
+|    |  1  |   2  |
+|--- | --- | ---- |
+|  1 |  0  |   1  |
+|  2 |  5  |   0  |
 
 (1 = Good,  2 = Bad)
 
